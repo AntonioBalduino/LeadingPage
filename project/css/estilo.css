@@ -1,0 +1,218 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: black;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+/*estlizando o conteudo do topo*/
+.topo{
+    background-color: rgb(25, 22, 219);
+    color: white;
+    margin: auto;
+    padding: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.topo h2{
+    padding: 15px;
+}
+.topo span{
+    color: rgb(255, 238, 0);
+}
+.topo p{
+    line-height: 30px;
+    padding: 15px;
+}
+.topo p span{
+    font-weight: bolder;
+    color: white;
+}
+.topo a{
+    text-decoration: none;
+    color: white;
+    background-color: green;
+    padding: 15px;
+    border-radius: 10px;
+    line-height: 70px;
+    font-size: 12px;
+}
+
+/*estilizando conteudo depois do topo, conteudo com sections*/
+.depois_topo{
+    background-color: rgb(1, 1, 37);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.centro{
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: -20px;
+}
+.centro div{
+    margin: 5px;
+    background-color: rgb(5, 5, 68);
+    padding: 15px;
+    width: 35%;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.d_1{
+    padding: 20px 40px;
+}
+.d_1 h3{
+    color: orange;
+}
+.d_1 p{
+    line-height: 20px;
+}
+.d_2{
+    padding: 20px 40px;
+}
+.d_2 h3{
+    color: orange;
+}
+.d_2 p{
+    line-height: 20px;
+}
+.d_3 h3{
+    color: orange;
+}
+.d_3{
+    padding: 20px 40px;
+}
+.d_3 p{
+    line-height: 20px;
+}
+
+/*estilizando conteudo depois do topo_2, conteudo com sections*/
+.depois_topo_2{
+    background-color: black;
+    color: white;
+    padding: 40px;
+    line-height: 30px;
+    width: 100%;
+}
+.depois_topo_2 h2{
+    text-align: center;
+}
+.depois_topo_2 p{
+    text-align: center;
+}
+.centro_2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+}
+.centro_2 div{
+    background-color: rgba(2, 2, 32, 0.514);
+    margin: 10px;
+    padding: 25px;
+    width: 25%;
+    
+    border-radius: 10px;
+    text-align: left;
+}
+.centro_2 h3{
+    color: orange;
+    margin: 10px;
+}
+.centro_2 p{
+    text-align: left;
+    line-height: 20px;
+}
+
+
+/*estilizando conteudo depois do topo_3, conteudo com sections*/
+
+.depois_topo_3{
+    background-color: black;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    line-height: 30px;
+    width: 100%;
+}
+.centro_3{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+}
+.centro_3 div{
+    background-color: rgba(2, 2, 32, 0.514);
+    margin: 10px;
+    padding: 20px;
+    width: 25%;
+    border-radius: 10px;
+    text-align: left;
+}
+.centro_3 p{
+    line-height: 30px;
+    font-size: 1em;
+}
+
+
+/*estilizando conteudo depois do topo_4, conteudo com sections*/
+
+.depois_topo_4{
+    background-color: black;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    line-height: 30px;
+}
+.centro_4{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 20px;
+}
+.centro_4 div{
+    background-color: rgba(2, 2, 32, 0.514);
+    margin: 10px;
+    padding: 20px;
+    width: 50%;
+    border-radius: 10px;
+    text-align: left;
+}
+
+/*estilizando conteudo depois do topo_5, conteudo com sections*/
+
+.depois_topo_5{
+    background-color: rgb(37, 16, 156);
+    color: white;
+    padding: 90px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 0px 0px 10px 10px;
+}
+.depois_topo_5 a{
+    text-decoration: none;
+    color: white;
+    line-height: 100px;
+    background-color: green;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: 900;
+}
+
+/*ultima parte*/
+footer{
+    background-color: black;
+    color: rgba(255, 255, 255, 0.623);
+    text-align: center;
+    padding: 20px;
+}
+footer span{
+    font-weight: 700;
+}
